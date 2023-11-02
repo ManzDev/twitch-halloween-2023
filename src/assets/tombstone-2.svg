@@ -1,0 +1,21 @@
+<style>
+  svg {
+    --cros_color: black;
+    --gravestone_color: var(--shadow-color);
+    --inscription_color: var(--shadow-color);
+
+    height: 400px;
+  }
+</style>
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="250">
+  <!-- Fondo -->
+  <!-- Tumba -->
+  <path fill=var(--gravestone_color) d="M10 90 L30 80 L60 80 L110 80 L130 90 L110 250 L30 250" />
+  <!-- Cruz -->
+  <rect x="35" y="30" width="70" height="10" fill=var(--cros_color) />
+  <rect x="65" y="10" width="10" height="70" fill=var(--cros_color) />
+  <!-- Inscripcion -->
+  <rect x="35" y="100" width="70" height="10" fill=var(--inscription_color) />
+  <rect x="35" y="130" width="70" height="10" fill=var(--inscription_color) />
+  <rect x="35" y="160" width="70" height="10" fill=var(--inscription_color) />
+</svg>
